@@ -3,7 +3,7 @@ import urllib.request as request
 import json
 from datetime import datetime as dt
 
-API_KEY = 'ac1931cc0f5d341f98134f67ef9e417e'
+API_KEY = 'abcdefghijklmnopqrstuvwxyz'
 url = 'https://api.darksky.net/forecast/'+API_KEY+'/{},{}'
 
 def update_database(forecast_collection, forecast):
